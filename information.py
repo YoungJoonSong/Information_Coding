@@ -4,6 +4,9 @@ import math
 from typing import List, Sequence
 
 
+## probability: float 는 probability가 실수형임을 알려주는 type hint입니다.
+## -> float는 반환 값이 실수형이라고 알려주는 type hint입니다.
+
 def self_information(probability: float) -> float:
     """
     자기 정보량을 계산하는 함수
